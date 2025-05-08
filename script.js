@@ -1,6 +1,7 @@
 
  
-/*let opcoes = Number(prompt(`
+/*
+let opcoes = Number(prompt(`
     Selecione a opção desejada:
     1 - Saque
     2 - transferencia
@@ -24,12 +25,40 @@ switch (opcoes){
     default:
         alert("Opção inválida");
        
-}*/
+}
+*/
 
-/*for (let i = 1; i <= 10; i++) {
+/*
+for (let i = 1; i <= 10; i++) {
     console.log(`passo: ${i}`);
-}*/
+}
+*/
 
+/*
 for (let i = 2; i <= 20; i = i + 2) {
     console.log(`passo: ${i}`);
 }
+*/
+
+/*
+for (let i = 1; i <= 10; i = i + 2) {
+    console.log(`passo: ${i}`);
+}
+*/
+
+/*
+for (let i = 1; i <= 10; i++) {
+   if (i % 2 === 1) {
+    console.log(`${i}`);
+   }
+}
+*/
+
+/*
+for (let i = 1; i <= 10; i++) {
+    if (i % 2 === 1) {
+     console.log(`${i}`);
+    }
+ }
+*/
+
