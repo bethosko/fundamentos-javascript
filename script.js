@@ -117,3 +117,9 @@ for (let i = 2; i <= 20; i = i + 2) {
 //         console.log("Chegou ao zero")
 //     }
 // }
+
+let  palavra;
+do {
+    palavra = prompt("Digite uma palavra senha");
+} while (palavra !== "sair");
+alert("saida permitida.")
