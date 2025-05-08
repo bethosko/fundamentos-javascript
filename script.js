@@ -28,11 +28,12 @@ switch (opcoes){
 }
 */
 
-/*
-for (let i = 1; i <= 10; i++) {
-    console.log(`passo: ${i}`);
-}
-*/
+// mostarar numeros de 1 a 10
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`passo: ${i}`);
+// }
+
 
 /*
 for (let i = 2; i <= 20; i = i + 2) {
@@ -40,31 +41,79 @@ for (let i = 2; i <= 20; i = i + 2) {
 }
 */
 
-/*
-for (let i = 1; i <= 10; i = i + 2) {
-    console.log(`passo: ${i}`);
-}
-*/
+// NUMEROS IMPARES DE 1 - 10
+// for (let i = 1; i <= 10; i = i + 2) {
+//     console.log(`passo: ${i}`);
+// }
 
-/*
-for (let i = 1; i <= 10; i++) {
-   if (i % 2 === 1) {
-    console.log(`${i}`);
-   }
-}
-*/
 
-/*
-for (let i = 1; i <= 10; i++) {
-    if (i % 2 === 1) {
-     console.log(`${i}`);
-    }
- }
-*/
 
-let numero = Number (prompt(" Digite um numero: "));
+// NUMEROS IMPARES DE 1 - 10
 
-for(let i = 1; i <= 10; i++) {
-    console.log(`${numero} x ${i} = ${numero * i}`);
-    
-}
+// for (let i = 1; i <= 10; i++) {
+//    if (i % 2 === 1) {
+//     console.log(`${i}`);
+//    }
+// }
+
+
+// Numeros ímpare de 1 a 9:
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 === 1) {
+//      console.log(`${i}`);
+//     }
+//  }
+
+
+// mostrar a tabuada do numero digitado:
+
+// let numero = Number (prompt(" Digite um numero: "));
+// for(let i = 1; i <= 10; i++) {
+//     console.log(`${numero} x ${i} = ${numero * i}`);
+// }
+
+// pedindo senha de acesso:
+
+// let senha = Number(prompt("Digite a senha: "));
+// while (senha !== 12345) {
+//     senha = Number(prompt("Senha invalida. Tente novamente."));
+// }
+// alert("Acesso permitido.");
+
+// contagem regressiva do 10 ao 1:
+
+// let contagem = 10
+// while (contagem >= 1) {
+//     {
+//      console.log(contagem);
+//      contagem--;
+//     }
+//  }
+
+// let palavra = prompt("Digite uma palavra:");
+// let contador = 1;
+// while (contador <= 5 ) {
+//     {
+//      console.log(palavra );
+//      contador++
+      
+//     }
+//  }
+
+// contagem regressiva do 10 ao 1:
+
+// 
+// let contagem = prompt("Digite um numero maior 5");
+// while (contagem > 0) {
+//     if (contagem % 2 === 1) {
+//         console.log(`${contagem} - numero é impar`);
+//     }
+//     else {
+//         console.log(`${contagem} - Numero é par`);
+//     }
+//     contagem--;
+//     if (contagem == 0) {
+//         console.log("Chegou ao zero")
+//     }
+// }
