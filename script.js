@@ -147,13 +147,36 @@ for (let i = 2; i <= 20; i = i + 2) {
     
 // console.log(acumulador);
 
-const numeros = [10, 20, 30];
-let acumulador = 0;
-numeros.forEach((Element) =>{
-    acumulador += Element;
-});
+// const numeros = [10, 20, 30];
+// let acumulador = 0;
+// numeros.forEach((Element) =>{
+//     acumulador += Element;
+// });
     
-console.log(acumulador);
+// console.log(acumulador);
 
-    
+// const numeros = [1,2,3,4,5,6,];
+// const dobrados =  numeros.map((elemento) =>{
+//      return elemento * 2
+// });    
+// console.log(dobrados);
+// console.log(numeros);
+
  
+// const numeros = [15, 20, 8, 12];
+// const soma =  numeros.map((elemento) =>{
+//      return elemento + 10
+// });    
+// console.log(soma);
+
+// const numeros = [10, 20, 30];
+// const soma =  numeros.reduce((acumulador,numero) =>{
+//      return acumulador + numero
+// }, 0);    
+// console.log(soma);
+
+const numeros = [7, 8, 6, 9, 5, ];
+const soma =  numeros.reduce((acumulador,numero) =>{
+     return acumulador + numero
+}, 0);    
+console.log(soma / 5);
