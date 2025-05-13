@@ -139,10 +139,18 @@ for (let i = 2; i <= 20; i = i + 2) {
 //     console.log(numero);   
 // })
 
+// const numeros = [10, 20, 30];
+// let acumulador = 0;
+// numeros.forEach((Element) =>{
+//     acumulador = acumulador + Element;
+// });
+    
+// console.log(acumulador);
+
 const numeros = [10, 20, 30];
 let acumulador = 0;
 numeros.forEach((Element) =>{
-    acumulador = acumulador + Element;
+    acumulador += Element;
 });
     
 console.log(acumulador);
