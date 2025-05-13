@@ -118,8 +118,34 @@ for (let i = 2; i <= 20; i = i + 2) {
 //     }
 // }
 
-let  palavra;
-do {
-    palavra = prompt("Digite uma palavra senha");
-} while (palavra !== "sair");
-alert("saida permitida.")
+// let  palavra;
+// do {
+//     palavra = prompt("Digite uma palavra senha");
+// } while (palavra !== "sair");
+// alert("saida permitida.")
+
+// const numeros = [1,2,3,4,5,6];
+// const pares = [];
+
+// for(let i = 0; i < numeros.length; i++ ){
+//     if(numeros[i] % 2 === 0){
+//         pares.push(numeros[i]);
+//     }
+
+// }console.log(pares);
+
+// const numeros = [1,2,3,4,5,6];
+// numeros.forEach((numero)  => {
+//     console.log(numero);   
+// })
+
+const numeros = [10, 20, 30];
+let acumulador = 0;
+numeros.forEach((Element) =>{
+    acumulador = acumulador + Element;
+});
+    
+console.log(acumulador);
+
+    
+ 
